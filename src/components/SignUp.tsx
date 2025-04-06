@@ -73,7 +73,7 @@ function SignUp(): JSX.Element {
   }
 
   return (
-    <div className="m-autow-[90vw] sm:w-96  rounded-lg p-4 flex flex-col justify-evenly h-140 bg-white shadow-xl shadow-gray-400">
+    <div className="m-auto w-[90vw] sm:w-96  rounded-lg p-4 flex flex-col justify-evenly h-140 bg-white shadow-xl shadow-gray-400">
       <div className="flex flex-col items-center justify-evenly h-full ">
         {userLoggedIn && <Navigate to={"/home"} replace={true} />}
         <form
