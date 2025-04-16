@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# 🔐 Firebase Authentication Project with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern authentication application built with React and Firebase, focused on delivering a smooth and responsive user experience. It includes full features such as login, registration, and password recovery, all within a clean interface styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User registration (Sign Up)
+- Email/password login
+- Google authentication
+- Password reset via email
+- Fully responsive layout (desktop and mobile)
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Vite + React
+- TypeScript
+- Firebase Authentication
+- Tailwind CSS
+- React Router
+- Context API
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🔗 Deploy
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The project is deployed on Vercel:  
+👉 Visit here: https://auth-project-firebase.vercel.app/
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+------------------------------------------------------------------
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# 🔐 Projeto de Autenticação com Firebase e React
+
+Uma aplicação moderna de autenticação com React e Firebase, com foco em uma experiência fluida e responsiva para o usuário. O projeto inclui funcionalidades completas de login, registro e recuperação de senha, tudo isso com uma interface bonita e simples construída com Tailwind CSS.
+
+## ✨ Funcionalidades
+
+- Cadastro de novos usuários (Sign Up)
+- Login com e-mail e senha
+- Autenticação via Google
+- Redefinição de senha via e-mail
+- Layout 100% responsivo (desktop e mobile)
+
+## 🚀 Tecnologias utilizadas
+
+- Vite + React
+- TypeScript
+- Firebase Authentication
+- Tailwind CSS
+- React Router
+- Context API
+
+## 🔗 Deploy
+
+O projeto está disponível em produção via Vercel:  
+👉 Acesse aqui: https://auth-project-firebase.vercel.app/
+
+
