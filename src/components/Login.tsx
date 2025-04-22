@@ -165,7 +165,7 @@ function Login(): JSX.Element {
             className="cursor-pointer self-center mt-2"
           >
             <img
-              src="/google-icon.png"
+              src="/iconn.png"
               alt="google icon"
               className="shadow shadow-gray-400 rounded-sm hover:-translate-y-0.5 transform transition"
             />
